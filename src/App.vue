@@ -1,6 +1,6 @@
 <template>
 
- <v-app  >
+ <v-app>
    <link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet">
   <!-- <v-toolbar app>
     <v-icon medium>
@@ -12,9 +12,10 @@ widgets
    
   </v-toolbar> -->
   <v-content>
+    <div style="min-width:800px;">
 <maincontent >
   </maincontent>
-
+</div>
   </v-content>
   <!-- <v-footer app>
     

@@ -41,12 +41,12 @@
                 Always aspiring to be a better person than before"
               </div>
             </div>
-            <v-layout row mt-5 justify-center>
-              <v-flex xs3 pa-2>
+            <v-layout row mt-5 justify-center wrap>
+              <v-flex md3 xs9 pa-2>
                 <v-img :src="require('@/assets/images/photo.jpg')"
                   gradient="to top right, rgba(100,115,201,.1), rgba(42,42,43,.7)"></v-img>
               </v-flex>
-              <v-flex xs9>
+              <v-flex xs12 md9 mb-3>
                 <h3 class="headline font-weight-medium">Personal Info</h3>
                 <div style="padding: 0px 45%">
                   <v-divider class="primary">
